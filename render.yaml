@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: pramaanscan-backend
+    runtime: python
+    plan: standard # TensorFlow + mediapipe + opencv need more than the 512MB free/starter plan
+    branch: main
+    buildCommand: "pip install --upgrade pip && pip install -r backend_final/requirements-backend.txt -r PramaanScan_ML/requirements.txt"
+    startCommand: "cd backend_final && python create_db.py && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: APP_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false # paste your Supabase Postgres connection string here
+      - key: JWT_SECRET
+        generateValue: true
+      - key: KEY_ENCRYPTION_SECRET
+        generateValue: true
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: 60
+      - key: REFRESH_TOKEN_EXPIRE_DAYS
+        value: 7
+      - key: PUBLIC_BASE_URL
+        sync: false # your Render backend URL, e.g. https://pramaanscan-backend.onrender.com
+      - key: FRONTEND_BASE_URL
+        sync: false # your Vercel frontend URL, e.g. https://pramaanscan.vercel.app
+      - key: CORS_ORIGINS
+        sync: false # your Vercel frontend URL(s), comma-separated, no trailing slash

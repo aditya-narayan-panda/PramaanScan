@@ -1,0 +1,69 @@
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { ShieldCheck, QrCode, FileUp, KeyRound, History, Eye, Sparkles, Building2, ArrowRight, Landmark, GraduationCap, Stamp, ChevronRight, CheckCircle2, Fingerprint, LockKeyhole, SearchCheck, Globe2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { FAQ_ITEMS } from "@/lib/faqData";
+
+const FEATURES = [
+  [KeyRound, "Digital signatures", "Ed25519 signing creates a mathematical proof that a registered communication came from its issuing institution."],
+  [QrCode, "Instant QR verification", "Scan the QR printed on an official notice and resolve its registered communication in seconds."],
+  [Fingerprint, "SHA-256 fingerprint", "The exact uploaded bytes are hashed before verification, so even a one-byte change is detectable."],
+  [Sparkles, "Advisory AI analysis", "Image, audio, video and document analysis provides a secondary manipulation-risk signal without replacing cryptographic proof."],
+  [History, "Version provenance", "Signed versions and verification activity keep a traceable history instead of silently overwriting records."],
+  [Building2, "Multi-institution ready", "Separate institutional identities can operate on one shared public verification experience."],
+] as const;
+
+const STEPS = [
+  ["01", "Issue", "An authorised institution prepares and signs the official communication."],
+  ["02", "Fingerprint", "PramaanScan calculates a SHA-256 fingerprint of the exact file."],
+  ["03", "Register", "The signed record and verification metadata are registered."],
+  ["04", "Verify", "Citizens scan, upload, or enter a code to check authenticity."],
+];
+
+const TRUSTED_TYPES = [[Landmark, "Government departments"], [GraduationCap, "Universities & boards"], [Stamp, "Regulatory authorities"], [Building2, "Public institutions"]] as const;
+
+export default function LandingPage() {
+  return <div className="overflow-hidden">
+    <section className="relative border-b border-border bg-[radial-gradient(circle_at_80%_10%,hsl(var(--primary)/.16),transparent_34%),radial-gradient(circle_at_10%_30%,hsl(var(--gov-saffron)/.07),transparent_26%),linear-gradient(180deg,hsl(var(--secondary)/.82),hsl(var(--background)))]">
+      <div className="pointer-events-none absolute inset-0 bg-grid-slate opacity-60 [mask-image:linear-gradient(to_bottom,black,transparent_75%)]" />
+      <div className="container relative grid gap-12 py-14 sm:py-20 lg:grid-cols-[1.05fr_.95fr] lg:items-center lg:py-24">
+        <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .5 }}>
+          <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-background/80 px-3.5 py-1.5 text-xs font-semibold text-primary shadow-soft"><span className="h-2 w-2 rounded-full bg-success" /> Secure public-document verification</div>
+          <h1 className="mt-6 max-w-3xl text-balance font-display text-4xl font-extrabold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">Verify official documents with <span className="text-primary">proof, not guesswork.</span></h1>
+          <p className="mt-6 max-w-2xl text-balance text-base leading-7 text-muted-foreground sm:text-lg">PramaanScan combines cryptographic signatures, SHA-256 fingerprints, QR verification and advisory media analysis in one citizen-first verification service.</p>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row"><Button size="lg" className="shadow-glow" asChild><Link to="/verify"><ShieldCheck className="h-5 w-5" /> Verify a Document</Link></Button><Button size="lg" variant="outline" asChild><Link to="/institution/login"><Building2 className="h-5 w-5" /> Institution Portal</Link></Button></div>
+          <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-xs font-semibold text-muted-foreground"><span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-success" /> Cryptographic verification</span><span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-success" /> Advisory AI layer</span><span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-success" /> Public verification</span></div>
+        </motion.div>
+        <motion.div initial={{ opacity: 0, scale: .97 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .55, delay: .08 }} className="relative">
+          <div className="absolute -inset-5 rounded-[2rem] bg-primary/12 blur-2xl" />
+          <Card className="surface-glass interactive-lift relative overflow-hidden border-primary/20 shadow-elevated">
+            <div className="h-1.5 bg-[linear-gradient(90deg,#f59e0b,#ffffff_50%,#16a34a)] dark:bg-[linear-gradient(90deg,#f59e0b,#334155_50%,#16a34a)]" />
+            <CardContent className="p-6 sm:p-8">
+              <div className="flex items-center justify-between"><div><p className="text-xs font-bold uppercase tracking-[.16em] text-muted-foreground">Verification centre</p><h2 className="mt-1 font-display text-xl font-bold">Choose how to verify</h2></div><div className="rounded-xl bg-primary/10 p-3 text-primary"><SearchCheck className="h-6 w-6" /></div></div>
+              <div className="mt-7 space-y-3">
+                {[ [QrCode,"Scan a QR Code","Open a registered communication","/verify?tab=qr"],[FileUp,"Upload a File","Check the exact file fingerprint","/verify?tab=upload"],[Eye,"Enter a Code","Resolve a verification code","/verify?tab=code"] ].map(([Icon,title,desc,to]) => <Link key={title as string} to={to as string} className="group flex items-center gap-4 rounded-xl border border-border bg-background p-4 transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-card"><div className="rounded-lg bg-primary/10 p-2.5 text-primary"><Icon className="h-5 w-5" /></div><div className="min-w-0 flex-1"><p className="text-sm font-bold">{title as string}</p><p className="mt-0.5 text-xs text-muted-foreground">{desc as string}</p></div><ChevronRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1" /></Link>)}
+              </div>
+              <div className="mt-6 flex items-center gap-3 rounded-xl bg-secondary/60 p-3 text-xs text-muted-foreground"><LockKeyhole className="h-4 w-4 shrink-0 text-success" /><span>Cryptographic status remains authoritative; AI findings are advisory.</span></div>
+            </CardContent>
+          </Card>
+        </motion.div>
+      </div>
+    </section>
+
+    <section className="border-b border-border bg-card"><div className="container grid gap-6 py-8 sm:grid-cols-3"><div><p className="text-2xl font-extrabold text-primary">SHA-256</p><p className="mt-1 text-xs text-muted-foreground">Exact file fingerprinting</p></div><div><p className="text-2xl font-extrabold text-primary">Ed25519</p><p className="mt-1 text-xs text-muted-foreground">Digital signature verification</p></div><div><p className="text-2xl font-extrabold text-primary">4 modes</p><p className="mt-1 text-xs text-muted-foreground">Document, image, audio & video analysis</p></div></div></section>
+
+    <section className="container py-20 sm:py-24"><div className="max-w-2xl"><span className="text-xs font-bold uppercase tracking-[.16em] text-primary">Built for trust</span><h2 className="mt-3 font-display text-3xl font-extrabold sm:text-4xl">Government-service clarity with security-first technology.</h2><p className="mt-4 leading-7 text-muted-foreground">The interface follows public-service patterns: clear actions, strong status communication, predictable navigation and accessible information hierarchy.</p></div><div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{FEATURES.map(([Icon,title,description],i)=><motion.div key={title as string} initial={{opacity:0,y:14}} whileInView={{opacity:1,y:0}} viewport={{once:true,margin:"-50px"}} transition={{duration:.35,delay:i*.04}}><Card className="h-full transition-all hover:-translate-y-1 hover:shadow-card"><CardContent className="p-6"><div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10 text-primary"><Icon className="h-5 w-5" /></div><h3 className="mt-5 font-display font-bold">{title as string}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{description as string}</p></CardContent></Card></motion.div>)}</div></section>
+
+    <section className="border-y border-border bg-secondary/45 py-20 sm:py-24"><div className="container"><div className="mx-auto max-w-2xl text-center"><span className="text-xs font-bold uppercase tracking-[.16em] text-primary">How it works</span><h2 className="mt-3 font-display text-3xl font-extrabold sm:text-4xl">A simple verification journey.</h2></div><div className="mx-auto mt-12 grid max-w-5xl gap-4 md:grid-cols-4">{STEPS.map(([num,title,desc])=><div key={num} className="relative rounded-2xl border border-border bg-card p-5 shadow-soft"><div className="flex items-center justify-between"><span className="font-mono text-xs font-bold text-primary">{num}</span><div className="h-2 w-2 rounded-full bg-success" /></div><h3 className="mt-7 font-display font-bold">{title}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{desc}</p></div>)}</div></div></section>
+
+    <section className="container py-20 sm:py-24"><div className="grid items-center gap-12 lg:grid-cols-2"><div><span className="text-xs font-bold uppercase tracking-[.16em] text-primary">Two-layer trust model</span><h2 className="mt-3 font-display text-3xl font-extrabold sm:text-4xl">Cryptography decides. AI assists.</h2><p className="mt-4 leading-7 text-muted-foreground">A probabilistic model should never overrule a cryptographic proof. PramaanScan keeps those responsibilities separate so a strong AI score cannot turn an unsigned file into a verified document.</p><div className="mt-7 space-y-3">{["Exact SHA-256 hash is recomputed for every upload","Ed25519 signature and signing-key status are checked","Revocation and provenance are evaluated by the backend","Media analysis is clearly labelled as advisory evidence"].map(item=><div key={item} className="flex gap-3 text-sm"><CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-success"/><span className="text-muted-foreground">{item}</span></div>)}</div></div><Card className="overflow-hidden border-primary/20 shadow-elevated"><div className="flex items-center justify-between border-b border-border bg-secondary/50 px-5 py-3"><span className="font-mono text-xs font-semibold text-muted-foreground">verification_result</span><span className="rounded-full bg-success/10 px-2.5 py-1 text-[11px] font-bold text-success">VERIFIED</span></div><CardContent className="p-5"><div className="space-y-4 font-mono text-xs"><div><span className="text-muted-foreground">hash</span><p className="mt-1 break-all text-foreground">49f2…d763ff</p></div><div><span className="text-muted-foreground">signature</span><p className="mt-1 text-foreground">Ed25519 • ACTIVE</p></div><div><span className="text-muted-foreground">ai_analysis</span><p className="mt-1 text-foreground">advisory • LOW RISK</p></div></div></CardContent></Card></div></section>
+
+    <section className="border-y border-border bg-secondary/45 py-16"><div className="container text-center"><span className="text-xs font-bold uppercase tracking-[.16em] text-primary">Designed for public institutions</span><h2 className="mt-3 font-display text-2xl font-extrabold sm:text-3xl">One verification experience across many issuers.</h2><div className="mx-auto mt-9 grid max-w-4xl grid-cols-2 gap-4 lg:grid-cols-4">{TRUSTED_TYPES.map(([Icon,label])=><div key={label as string} className="rounded-xl border border-border bg-card p-5"><Icon className="mx-auto h-7 w-7 text-primary"/><p className="mt-3 text-xs font-semibold text-muted-foreground">{label as string}</p></div>)}</div></div></section>
+
+    <section className="container py-20"><div className="mx-auto max-w-2xl text-center"><span className="text-xs font-bold uppercase tracking-[.16em] text-primary">Help centre</span><h2 className="mt-3 font-display text-3xl font-extrabold">Frequently asked questions</h2></div><div className="mx-auto mt-9 max-w-2xl"><Accordion type="single" collapsible className="space-y-3">{FAQ_ITEMS.slice(0,5).map(item=><AccordionItem key={item.question} value={item.question} className="rounded-xl border border-border bg-card px-5"><AccordionTrigger>{item.question}</AccordionTrigger><AccordionContent>{item.answer}</AccordionContent></AccordionItem>)}</Accordion><div className="mt-6 text-center"><Button variant="link" asChild><Link to="/faq">View all FAQs <ArrowRight className="h-4 w-4"/></Link></Button></div></div></section>
+
+    <section className="container pb-20"><div className="relative overflow-hidden rounded-3xl border border-primary/20 bg-primary px-7 py-14 text-center shadow-elevated sm:px-14"><div className="pointer-events-none absolute inset-0 bg-grid-slate opacity-10"/><div className="relative"><Globe2 className="mx-auto h-9 w-9 text-primary-foreground/90"/><h2 className="mt-4 font-display text-3xl font-extrabold text-white sm:text-4xl">Ready to verify with confidence?</h2><p className="mx-auto mt-3 max-w-lg text-primary-100/90">Check a document now, or sign in to the institutional portal to issue and manage signed communications.</p><div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row"><Button size="lg" variant="secondary" asChild><Link to="/verify"><ShieldCheck className="h-5 w-5"/> Verify a Document</Link></Button><Button size="lg" variant="outline" className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white" asChild><Link to="/contact">Contact Us</Link></Button></div></div></div></section>
+  </div>;
+}

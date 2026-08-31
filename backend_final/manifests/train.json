@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "real_0083",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0083",
+    "label": 0
+  },
+  {
+    "id": "fake_0061",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0061",
+    "label": 1
+  },
+  {
+    "id": "fake_0081",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0081",
+    "label": 1
+  },
+  {
+    "id": "real_0018",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0018",
+    "label": 0
+  },
+  {
+    "id": "fake_0139",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0139",
+    "label": 1
+  },
+  {
+    "id": "real_0118",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0118",
+    "label": 0
+  },
+  {
+    "id": "real_0144",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0144",
+    "label": 0
+  },
+  {
+    "id": "fake_0146",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0146",
+    "label": 1
+  },
+  {
+    "id": "real_0091",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0091",
+    "label": 0
+  },
+  {
+    "id": "fake_0149",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0149",
+    "label": 1
+  },
+  {
+    "id": "fake_0052",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0052",
+    "label": 1
+  },
+  {
+    "id": "real_0161",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0161",
+    "label": 0
+  },
+  {
+    "id": "fake_0160",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0160",
+    "label": 1
+  },
+  {
+    "id": "real_0039",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0039",
+    "label": 0
+  },
+  {
+    "id": "real_0014",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0014",
+    "label": 0
+  },
+  {
+    "id": "fake_0175",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0175",
+    "label": 1
+  },
+  {
+    "id": "real_0151",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0151",
+    "label": 0
+  },
+  {
+    "id": "fake_0033",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0033",
+    "label": 1
+  },
+  {
+    "id": "fake_0104",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0104",
+    "label": 1
+  },
+  {
+    "id": "real_0074",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0074",
+    "label": 0
+  },
+  {
+    "id": "fake_0063",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0063",
+    "label": 1
+  },
+  {
+    "id": "real_0052",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0052",
+    "label": 0
+  },
+  {
+    "id": "fake_0181",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0181",
+    "label": 1
+  },
+  {
+    "id": "fake_0057",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0057",
+    "label": 1
+  },
+  {
+    "id": "real_0145",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0145",
+    "label": 0
+  },
+  {
+    "id": "fake_0159",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0159",
+    "label": 1
+  },
+  {
+    "id": "real_0183",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0183",
+    "label": 0
+  },
+  {
+    "id": "real_0004",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0004",
+    "label": 0
+  },
+  {
+    "id": "fake_0095",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0095",
+    "label": 1
+  },
+  {
+    "id": "real_0058",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0058",
+    "label": 0
+  },
+  {
+    "id": "real_0023",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0023",
+    "label": 0
+  },
+  {
+    "id": "real_0075",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0075",
+    "label": 0
+  },
+  {
+    "id": "real_0196",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0196",
+    "label": 0
+  },
+  {
+    "id": "real_0169",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0169",
+    "label": 0
+  },
+  {
+    "id": "fake_0097",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0097",
+    "label": 1
+  },
+  {
+    "id": "real_0154",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0154",
+    "label": 0
+  },
+  {
+    "id": "real_0078",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0078",
+    "label": 0
+  },
+  {
+    "id": "fake_0170",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0170",
+    "label": 1
+  },
+  {
+    "id": "fake_0156",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0156",
+    "label": 1
+  },
+  {
+    "id": "fake_0091",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0091",
+    "label": 1
+  },
+  {
+    "id": "fake_0075",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0075",
+    "label": 1
+  },
+  {
+    "id": "fake_0031",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0031",
+    "label": 1
+  },
+  {
+    "id": "real_0168",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0168",
+    "label": 0
+  },
+  {
+    "id": "fake_0010",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0010",
+    "label": 1
+  },
+  {
+    "id": "fake_0025",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0025",
+    "label": 1
+  },
+  {
+    "id": "real_0043",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0043",
+    "label": 0
+  },
+  {
+    "id": "fake_0086",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0086",
+    "label": 1
+  },
+  {
+    "id": "fake_0041",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0041",
+    "label": 1
+  },
+  {
+    "id": "fake_0109",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0109",
+    "label": 1
+  },
+  {
+    "id": "fake_0176",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0176",
+    "label": 1
+  },
+  {
+    "id": "real_0087",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0087",
+    "label": 0
+  },
+  {
+    "id": "real_0199",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0199",
+    "label": 0
+  },
+  {
+    "id": "real_0007",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0007",
+    "label": 0
+  },
+  {
+    "id": "real_0152",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0152",
+    "label": 0
+  },
+  {
+    "id": "fake_0180",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0180",
+    "label": 1
+  },
+  {
+    "id": "fake_0079",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0079",
+    "label": 1
+  },
+  {
+    "id": "fake_0074",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0074",
+    "label": 1
+  },
+  {
+    "id": "real_0089",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0089",
+    "label": 0
+  },
+  {
+    "id": "real_0135",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0135",
+    "label": 0
+  },
+  {
+    "id": "real_0068",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0068",
+    "label": 0
+  },
+  {
+    "id": "fake_0030",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0030",
+    "label": 1
+  },
+  {
+    "id": "fake_0137",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0137",
+    "label": 1
+  },
+  {
+    "id": "fake_0197",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0197",
+    "label": 1
+  },
+  {
+    "id": "real_0010",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0010",
+    "label": 0
+  },
+  {
+    "id": "fake_0088",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0088",
+    "label": 1
+  },
+  {
+    "id": "real_0198",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0198",
+    "label": 0
+  },
+  {
+    "id": "fake_0186",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0186",
+    "label": 1
+  },
+  {
+    "id": "fake_0083",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0083",
+    "label": 1
+  },
+  {
+    "id": "fake_0067",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0067",
+    "label": 1
+  },
+  {
+    "id": "fake_0193",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0193",
+    "label": 1
+  },
+  {
+    "id": "fake_0046",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0046",
+    "label": 1
+  },
+  {
+    "id": "fake_0085",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0085",
+    "label": 1
+  },
+  {
+    "id": "fake_0131",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0131",
+    "label": 1
+  },
+  {
+    "id": "fake_0151",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0151",
+    "label": 1
+  },
+  {
+    "id": "real_0073",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0073",
+    "label": 0
+  },
+  {
+    "id": "real_0107",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0107",
+    "label": 0
+  },
+  {
+    "id": "real_0026",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0026",
+    "label": 0
+  },
+  {
+    "id": "real_0129",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0129",
+    "label": 0
+  },
+  {
+    "id": "fake_0035",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0035",
+    "label": 1
+  },
+  {
+    "id": "fake_0090",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0090",
+    "label": 1
+  },
+  {
+    "id": "real_0086",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0086",
+    "label": 0
+  },
+  {
+    "id": "real_0105",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0105",
+    "label": 0
+  },
+  {
+    "id": "real_0134",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0134",
+    "label": 0
+  },
+  {
+    "id": "fake_0191",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0191",
+    "label": 1
+  },
+  {
+    "id": "real_0109",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0109",
+    "label": 0
+  },
+  {
+    "id": "real_0165",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0165",
+    "label": 0
+  },
+  {
+    "id": "fake_0121",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0121",
+    "label": 1
+  },
+  {
+    "id": "real_0104",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0104",
+    "label": 0
+  },
+  {
+    "id": "fake_0184",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0184",
+    "label": 1
+  },
+  {
+    "id": "fake_0130",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0130",
+    "label": 1
+  },
+  {
+    "id": "fake_0190",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0190",
+    "label": 1
+  },
+  {
+    "id": "real_0146",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0146",
+    "label": 0
+  },
+  {
+    "id": "fake_0138",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0138",
+    "label": 1
+  },
+  {
+    "id": "real_0050",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0050",
+    "label": 0
+  },
+  {
+    "id": "fake_0173",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0173",
+    "label": 1
+  },
+  {
+    "id": "real_0046",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0046",
+    "label": 0
+  },
+  {
+    "id": "fake_0024",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0024",
+    "label": 1
+  },
+  {
+    "id": "real_0185",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0185",
+    "label": 0
+  },
+  {
+    "id": "real_0011",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0011",
+    "label": 0
+  },
+  {
+    "id": "real_0084",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0084",
+    "label": 0
+  },
+  {
+    "id": "real_0031",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0031",
+    "label": 0
+  },
+  {
+    "id": "real_0188",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0188",
+    "label": 0
+  },
+  {
+    "id": "real_0157",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0157",
+    "label": 0
+  },
+  {
+    "id": "fake_0017",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0017",
+    "label": 1
+  },
+  {
+    "id": "real_0173",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0173",
+    "label": 0
+  },
+  {
+    "id": "real_0178",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0178",
+    "label": 0
+  },
+  {
+    "id": "fake_0044",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0044",
+    "label": 1
+  },
+  {
+    "id": "real_0099",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0099",
+    "label": 0
+  },
+  {
+    "id": "real_0093",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0093",
+    "label": 0
+  },
+  {
+    "id": "fake_0117",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0117",
+    "label": 1
+  },
+  {
+    "id": "real_0127",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0127",
+    "label": 0
+  },
+  {
+    "id": "fake_0113",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0113",
+    "label": 1
+  },
+  {
+    "id": "real_0025",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0025",
+    "label": 0
+  },
+  {
+    "id": "real_0085",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0085",
+    "label": 0
+  },
+  {
+    "id": "fake_0065",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0065",
+    "label": 1
+  },
+  {
+    "id": "fake_0155",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0155",
+    "label": 1
+  },
+  {
+    "id": "fake_0196",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0196",
+    "label": 1
+  },
+  {
+    "id": "real_0057",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0057",
+    "label": 0
+  },
+  {
+    "id": "real_0051",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0051",
+    "label": 0
+  },
+  {
+    "id": "fake_0048",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0048",
+    "label": 1
+  },
+  {
+    "id": "fake_0132",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0132",
+    "label": 1
+  },
+  {
+    "id": "real_0112",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0112",
+    "label": 0
+  },
+  {
+    "id": "real_0000",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0000",
+    "label": 0
+  },
+  {
+    "id": "real_0062",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0062",
+    "label": 0
+  },
+  {
+    "id": "real_0097",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0097",
+    "label": 0
+  },
+  {
+    "id": "fake_0110",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0110",
+    "label": 1
+  },
+  {
+    "id": "fake_0118",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0118",
+    "label": 1
+  },
+  {
+    "id": "fake_0054",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0054",
+    "label": 1
+  },
+  {
+    "id": "real_0182",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0182",
+    "label": 0
+  },
+  {
+    "id": "fake_0013",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0013",
+    "label": 1
+  },
+  {
+    "id": "real_0027",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0027",
+    "label": 0
+  },
+  {
+    "id": "real_0096",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0096",
+    "label": 0
+  },
+  {
+    "id": "fake_0021",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0021",
+    "label": 1
+  },
+  {
+    "id": "fake_0102",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0102",
+    "label": 1
+  },
+  {
+    "id": "fake_0169",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0169",
+    "label": 1
+  },
+  {
+    "id": "real_0008",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0008",
+    "label": 0
+  },
+  {
+    "id": "fake_0140",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0140",
+    "label": 1
+  },
+  {
+    "id": "real_0040",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0040",
+    "label": 0
+  },
+  {
+    "id": "fake_0001",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0001",
+    "label": 1
+  },
+  {
+    "id": "fake_0026",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0026",
+    "label": 1
+  },
+  {
+    "id": "real_0141",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0141",
+    "label": 0
+  },
+  {
+    "id": "fake_0103",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0103",
+    "label": 1
+  },
+  {
+    "id": "fake_0141",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0141",
+    "label": 1
+  },
+  {
+    "id": "real_0028",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0028",
+    "label": 0
+  },
+  {
+    "id": "real_0029",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0029",
+    "label": 0
+  },
+  {
+    "id": "fake_0051",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0051",
+    "label": 1
+  },
+  {
+    "id": "real_0125",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0125",
+    "label": 0
+  },
+  {
+    "id": "real_0079",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0079",
+    "label": 0
+  },
+  {
+    "id": "fake_0049",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0049",
+    "label": 1
+  },
+  {
+    "id": "fake_0016",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0016",
+    "label": 1
+  },
+  {
+    "id": "fake_0023",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0023",
+    "label": 1
+  },
+  {
+    "id": "real_0174",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0174",
+    "label": 0
+  },
+  {
+    "id": "real_0176",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0176",
+    "label": 0
+  },
+  {
+    "id": "real_0119",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0119",
+    "label": 0
+  },
+  {
+    "id": "real_0056",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0056",
+    "label": 0
+  },
+  {
+    "id": "real_0034",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0034",
+    "label": 0
+  },
+  {
+    "id": "fake_0161",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0161",
+    "label": 1
+  },
+  {
+    "id": "real_0133",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0133",
+    "label": 0
+  },
+  {
+    "id": "fake_0199",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0199",
+    "label": 1
+  },
+  {
+    "id": "fake_0000",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0000",
+    "label": 1
+  },
+  {
+    "id": "real_0155",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0155",
+    "label": 0
+  },
+  {
+    "id": "fake_0004",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0004",
+    "label": 1
+  },
+  {
+    "id": "fake_0105",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0105",
+    "label": 1
+  },
+  {
+    "id": "real_0190",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0190",
+    "label": 0
+  },
+  {
+    "id": "fake_0112",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0112",
+    "label": 1
+  },
+  {
+    "id": "fake_0135",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0135",
+    "label": 1
+  },
+  {
+    "id": "fake_0096",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0096",
+    "label": 1
+  },
+  {
+    "id": "fake_0040",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0040",
+    "label": 1
+  },
+  {
+    "id": "real_0100",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0100",
+    "label": 0
+  },
+  {
+    "id": "real_0048",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0048",
+    "label": 0
+  },
+  {
+    "id": "fake_0078",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0078",
+    "label": 1
+  },
+  {
+    "id": "fake_0189",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0189",
+    "label": 1
+  },
+  {
+    "id": "real_0059",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0059",
+    "label": 0
+  },
+  {
+    "id": "fake_0106",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0106",
+    "label": 1
+  },
+  {
+    "id": "real_0132",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0132",
+    "label": 0
+  },
+  {
+    "id": "real_0108",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0108",
+    "label": 0
+  },
+  {
+    "id": "fake_0015",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0015",
+    "label": 1
+  },
+  {
+    "id": "real_0142",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0142",
+    "label": 0
+  },
+  {
+    "id": "fake_0148",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0148",
+    "label": 1
+  },
+  {
+    "id": "real_0180",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0180",
+    "label": 0
+  },
+  {
+    "id": "fake_0167",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0167",
+    "label": 1
+  },
+  {
+    "id": "fake_0084",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0084",
+    "label": 1
+  },
+  {
+    "id": "real_0175",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0175",
+    "label": 0
+  },
+  {
+    "id": "real_0065",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0065",
+    "label": 0
+  },
+  {
+    "id": "fake_0182",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0182",
+    "label": 1
+  },
+  {
+    "id": "fake_0056",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0056",
+    "label": 1
+  },
+  {
+    "id": "fake_0100",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0100",
+    "label": 1
+  },
+  {
+    "id": "real_0049",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0049",
+    "label": 0
+  },
+  {
+    "id": "fake_0150",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0150",
+    "label": 1
+  },
+  {
+    "id": "real_0092",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0092",
+    "label": 0
+  },
+  {
+    "id": "fake_0120",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0120",
+    "label": 1
+  },
+  {
+    "id": "fake_0124",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0124",
+    "label": 1
+  },
+  {
+    "id": "real_0150",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0150",
+    "label": 0
+  },
+  {
+    "id": "fake_0005",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0005",
+    "label": 1
+  },
+  {
+    "id": "fake_0178",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0178",
+    "label": 1
+  },
+  {
+    "id": "real_0179",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0179",
+    "label": 0
+  },
+  {
+    "id": "fake_0142",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0142",
+    "label": 1
+  },
+  {
+    "id": "fake_0007",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0007",
+    "label": 1
+  },
+  {
+    "id": "real_0163",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0163",
+    "label": 0
+  },
+  {
+    "id": "fake_0012",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0012",
+    "label": 1
+  },
+  {
+    "id": "fake_0062",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0062",
+    "label": 1
+  },
+  {
+    "id": "fake_0157",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0157",
+    "label": 1
+  },
+  {
+    "id": "real_0137",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0137",
+    "label": 0
+  },
+  {
+    "id": "real_0116",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0116",
+    "label": 0
+  },
+  {
+    "id": "real_0063",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0063",
+    "label": 0
+  },
+  {
+    "id": "fake_0066",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0066",
+    "label": 1
+  },
+  {
+    "id": "fake_0187",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0187",
+    "label": 1
+  },
+  {
+    "id": "fake_0058",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0058",
+    "label": 1
+  },
+  {
+    "id": "fake_0179",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0179",
+    "label": 1
+  },
+  {
+    "id": "fake_0143",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0143",
+    "label": 1
+  },
+  {
+    "id": "fake_0070",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0070",
+    "label": 1
+  },
+  {
+    "id": "fake_0145",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0145",
+    "label": 1
+  },
+  {
+    "id": "real_0191",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0191",
+    "label": 0
+  },
+  {
+    "id": "real_0171",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0171",
+    "label": 0
+  },
+  {
+    "id": "fake_0107",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0107",
+    "label": 1
+  },
+  {
+    "id": "fake_0060",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0060",
+    "label": 1
+  },
+  {
+    "id": "real_0095",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0095",
+    "label": 0
+  },
+  {
+    "id": "fake_0018",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0018",
+    "label": 1
+  },
+  {
+    "id": "real_0123",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0123",
+    "label": 0
+  },
+  {
+    "id": "real_0022",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0022",
+    "label": 0
+  },
+  {
+    "id": "fake_0183",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0183",
+    "label": 1
+  },
+  {
+    "id": "fake_0069",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0069",
+    "label": 1
+  },
+  {
+    "id": "fake_0174",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0174",
+    "label": 1
+  },
+  {
+    "id": "real_0070",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0070",
+    "label": 0
+  },
+  {
+    "id": "fake_0154",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0154",
+    "label": 1
+  },
+  {
+    "id": "real_0081",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0081",
+    "label": 0
+  },
+  {
+    "id": "fake_0144",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0144",
+    "label": 1
+  },
+  {
+    "id": "fake_0195",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0195",
+    "label": 1
+  },
+  {
+    "id": "real_0053",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0053",
+    "label": 0
+  },
+  {
+    "id": "real_0117",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0117",
+    "label": 0
+  },
+  {
+    "id": "real_0035",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0035",
+    "label": 0
+  },
+  {
+    "id": "real_0019",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0019",
+    "label": 0
+  },
+  {
+    "id": "real_0113",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0113",
+    "label": 0
+  },
+  {
+    "id": "real_0124",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0124",
+    "label": 0
+  },
+  {
+    "id": "real_0139",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0139",
+    "label": 0
+  },
+  {
+    "id": "real_0033",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0033",
+    "label": 0
+  },
+  {
+    "id": "fake_0166",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0166",
+    "label": 1
+  },
+  {
+    "id": "fake_0111",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0111",
+    "label": 1
+  },
+  {
+    "id": "real_0177",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0177",
+    "label": 0
+  },
+  {
+    "id": "real_0106",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0106",
+    "label": 0
+  },
+  {
+    "id": "fake_0108",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0108",
+    "label": 1
+  },
+  {
+    "id": "real_0164",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0164",
+    "label": 0
+  },
+  {
+    "id": "real_0197",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0197",
+    "label": 0
+  },
+  {
+    "id": "fake_0093",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0093",
+    "label": 1
+  },
+  {
+    "id": "fake_0045",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0045",
+    "label": 1
+  },
+  {
+    "id": "fake_0119",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0119",
+    "label": 1
+  },
+  {
+    "id": "real_0114",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0114",
+    "label": 0
+  },
+  {
+    "id": "fake_0029",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0029",
+    "label": 1
+  },
+  {
+    "id": "real_0090",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0090",
+    "label": 0
+  },
+  {
+    "id": "fake_0114",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0114",
+    "label": 1
+  },
+  {
+    "id": "fake_0064",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0064",
+    "label": 1
+  },
+  {
+    "id": "fake_0019",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0019",
+    "label": 1
+  },
+  {
+    "id": "real_0192",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0192",
+    "label": 0
+  },
+  {
+    "id": "fake_0136",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0136",
+    "label": 1
+  },
+  {
+    "id": "real_0120",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0120",
+    "label": 0
+  },
+  {
+    "id": "fake_0188",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0188",
+    "label": 1
+  },
+  {
+    "id": "fake_0129",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0129",
+    "label": 1
+  },
+  {
+    "id": "real_0147",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0147",
+    "label": 0
+  },
+  {
+    "id": "fake_0147",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0147",
+    "label": 1
+  },
+  {
+    "id": "real_0088",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0088",
+    "label": 0
+  },
+  {
+    "id": "real_0024",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0024",
+    "label": 0
+  },
+  {
+    "id": "real_0189",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0189",
+    "label": 0
+  },
+  {
+    "id": "fake_0098",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0098",
+    "label": 1
+  },
+  {
+    "id": "fake_0011",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0011",
+    "label": 1
+  },
+  {
+    "id": "real_0017",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0017",
+    "label": 0
+  },
+  {
+    "id": "real_0067",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0067",
+    "label": 0
+  },
+  {
+    "id": "fake_0006",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0006",
+    "label": 1
+  },
+  {
+    "id": "real_0080",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0080",
+    "label": 0
+  },
+  {
+    "id": "fake_0020",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0020",
+    "label": 1
+  },
+  {
+    "id": "real_0072",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0072",
+    "label": 0
+  },
+  {
+    "id": "real_0077",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0077",
+    "label": 0
+  },
+  {
+    "id": "real_0143",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0143",
+    "label": 0
+  },
+  {
+    "id": "fake_0172",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0172",
+    "label": 1
+  },
+  {
+    "id": "fake_0127",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0127",
+    "label": 1
+  },
+  {
+    "id": "fake_0171",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0171",
+    "label": 1
+  },
+  {
+    "id": "real_0041",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0041",
+    "label": 0
+  },
+  {
+    "id": "real_0103",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0103",
+    "label": 0
+  },
+  {
+    "id": "fake_0123",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0123",
+    "label": 1
+  },
+  {
+    "id": "real_0094",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0094",
+    "label": 0
+  },
+  {
+    "id": "real_0082",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0082",
+    "label": 0
+  },
+  {
+    "id": "real_0181",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0181",
+    "label": 0
+  },
+  {
+    "id": "real_0021",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0021",
+    "label": 0
+  },
+  {
+    "id": "fake_0037",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0037",
+    "label": 1
+  },
+  {
+    "id": "fake_0042",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0042",
+    "label": 1
+  },
+  {
+    "id": "real_0148",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0148",
+    "label": 0
+  },
+  {
+    "id": "real_0001",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0001",
+    "label": 0
+  },
+  {
+    "id": "real_0020",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0020",
+    "label": 0
+  },
+  {
+    "id": "fake_0072",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0072",
+    "label": 1
+  },
+  {
+    "id": "real_0102",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0102",
+    "label": 0
+  },
+  {
+    "id": "fake_0177",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0177",
+    "label": 1
+  },
+  {
+    "id": "real_0006",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0006",
+    "label": 0
+  },
+  {
+    "id": "real_0038",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0038",
+    "label": 0
+  },
+  {
+    "id": "real_0098",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0098",
+    "label": 0
+  },
+  {
+    "id": "fake_0158",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0158",
+    "label": 1
+  },
+  {
+    "id": "real_0138",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0138",
+    "label": 0
+  },
+  {
+    "id": "fake_0115",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0115",
+    "label": 1
+  },
+  {
+    "id": "fake_0122",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0122",
+    "label": 1
+  },
+  {
+    "id": "real_0016",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0016",
+    "label": 0
+  },
+  {
+    "id": "fake_0198",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0198",
+    "label": 1
+  },
+  {
+    "id": "real_0149",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0149",
+    "label": 0
+  },
+  {
+    "id": "real_0054",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0054",
+    "label": 0
+  },
+  {
+    "id": "real_0184",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0184",
+    "label": 0
+  },
+  {
+    "id": "real_0160",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0160",
+    "label": 0
+  },
+  {
+    "id": "fake_0008",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0008",
+    "label": 1
+  },
+  {
+    "id": "fake_0036",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0036",
+    "label": 1
+  },
+  {
+    "id": "fake_0071",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0071",
+    "label": 1
+  },
+  {
+    "id": "fake_0194",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0194",
+    "label": 1
+  },
+  {
+    "id": "real_0009",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0009",
+    "label": 0
+  },
+  {
+    "id": "real_0166",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0166",
+    "label": 0
+  },
+  {
+    "id": "real_0131",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0131",
+    "label": 0
+  },
+  {
+    "id": "fake_0126",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0126",
+    "label": 1
+  },
+  {
+    "id": "real_0060",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0060",
+    "label": 0
+  },
+  {
+    "id": "real_0156",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0156",
+    "label": 0
+  },
+  {
+    "id": "real_0055",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0055",
+    "label": 0
+  },
+  {
+    "id": "fake_0089",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0089",
+    "label": 1
+  },
+  {
+    "id": "real_0140",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0140",
+    "label": 0
+  },
+  {
+    "id": "real_0115",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0115",
+    "label": 0
+  },
+  {
+    "id": "real_0071",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\real\\real_0071",
+    "label": 0
+  },
+  {
+    "id": "fake_0162",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0162",
+    "label": 1
+  },
+  {
+    "id": "fake_0027",
+    "path": "C:\\Users\\opadi\\Downloads\\PramaanScan_WildDeepfake_Lite\\data\\train\\fake\\fake_0027",
+    "label": 1
+  }
+]

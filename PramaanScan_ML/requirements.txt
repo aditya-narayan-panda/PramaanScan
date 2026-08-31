@@ -1,0 +1,29 @@
+# ============================================================
+# PramaanScan ML - Production Requirements
+# ============================================================
+
+# --- Core ML & Numerical Libraries ---
+numpy>=1.26.0
+scipy>=1.11.0
+scikit-learn>=1.4.0
+joblib>=1.3.0
+pandas>=2.1.0
+tqdm>=4.66.0
+
+# --- Image & Document Forensics ---
+scikit-image>=0.22.0
+Pillow>=10.0.0
+opencv-python>=4.9.0
+pypdf>=4.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# --- Audio Forensics ---
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# --- Video & Multimodal Deep Learning (Python < 3.13) ---
+imageio>=2.30.0
+imageio-ffmpeg>=0.4.0
+tensorflow>=2.15.0,<2.17.0; python_version < "3.13"
+mediapipe>=0.10.0; python_version < "3.13"

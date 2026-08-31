@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 221 83% 47%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 214 32% 95%;
+    --secondary-foreground: 222 47% 15%;
+
+    --muted: 214 32% 95%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 214 90% 96%;
+    --accent-foreground: 221 83% 30%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 152 60% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 26 40% 15%;
+
+    --border: 214 25% 89%;
+    --input: 214 25% 89%;
+    --ring: 221 83% 47%;
+
+    --radius: 0.85rem;
+    --gov-saffron: 37 92% 50%;
+    --gov-green: 142 71% 38%;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 96%;
+
+    --card: 222 42% 9%;
+    --card-foreground: 210 40% 96%;
+
+    --popover: 222 42% 8%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 8%;
+
+    --secondary: 222 30% 15%;
+    --secondary-foreground: 210 40% 96%;
+
+    --muted: 222 30% 14%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 60% 18%;
+    --accent-foreground: 213 90% 80%;
+
+    --destructive: 0 63% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 152 55% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 26 40% 12%;
+
+    --border: 222 25% 18%;
+    --input: 222 25% 18%;
+    --ring: 217 91% 60%;
+    --gov-saffron: 37 92% 50%;
+    --gov-green: 142 71% 38%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background: hsl(var(--background));
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    min-width: 320px;
+    text-rendering: optimizeLegibility;
+  }
+
+  button,
+  a,
+  input,
+  textarea,
+  select {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button,
+  a {
+    transition:
+      background-color 180ms ease,
+      border-color 180ms ease,
+      color 180ms ease,
+      box-shadow 180ms ease,
+      transform 180ms ease,
+      opacity 180ms ease;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-primary-900;
+  }
+
+  :focus-visible {
+    outline: 3px solid hsl(var(--ring) / 0.55);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gov-tricolor {
+    background: linear-gradient(
+      90deg,
+      #f59e0b 0 33.333%,
+      #ffffff 33.333% 66.666%,
+      #16a34a 66.666% 100%
+    );
+  }
+
+  .gov-flag {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    flex: 0 0 auto;
+    overflow: hidden;
+    border: 1px solid rgb(15 23 42 / 0.10);
+    border-radius: 2px;
+    background: linear-gradient(
+      to bottom,
+      #ff9933 0 33.333%,
+      #ffffff 33.333% 66.666%,
+      #138808 66.666% 100%
+    );
+    box-shadow: 0 1px 3px rgb(15 23 42 / 0.10);
+  }
+
+  .gov-flag::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #000080;
+    border-radius: 999px;
+    transform: translate(-50%, -50%);
+  }
+
+  .dark .gov-flag {
+    border-color: rgb(255 255 255 / 0.18);
+    box-shadow: 0 1px 4px rgb(0 0 0 / 0.25);
+  }
+
+  .bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+}
+
+
+@layer utilities {
+  .surface-glass {
+    background: hsl(var(--card) / 0.86);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .interactive-lift:hover {
+    transform: translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

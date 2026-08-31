@@ -1,0 +1,43 @@
+### --- Python / backend / ML ---
+.venv/
+venv/
+venv_py312/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.log
+
+# Local SQLite dev database (production uses Postgres/Supabase via DATABASE_URL)
+*.db
+*.sqlite3
+
+# Runtime scratch dirs
+PramaanScan_ML/image_ml/tmp_uploads/*
+!PramaanScan_ML/image_ml/tmp_uploads/.gitkeep
+PramaanScan_ML/image_ml/logs/*
+!PramaanScan_ML/image_ml/logs/.gitkeep
+PramaanScan_ML/outputs/models/*.tmp
+
+### --- Node / frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+*.tsbuildinfo
+
+### --- Environment secrets (NEVER commit real .env files) ---
+.env
+.env.*
+!.env.example
+!*/.env.example
+
+### --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+### --- Misc project cruft (safe to exclude) ---
+PramaanScan_HACKATHON_FINAL.zip
+*.bak
