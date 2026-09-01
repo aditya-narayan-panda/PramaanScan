@@ -50,7 +50,10 @@ apiClient.interceptors.response.use(
   (response) => response,
   async (error: AxiosError<ApiErrorPayload>) => {
     const original = error.config as (typeof error.config & { _retried?: boolean }) | undefined;
-    if (error.response?.status === 401 && original && !original._retried) {
+    const isAuthEndpoint =
+      typeof original?.url === "string" &&
+      (original.url.includes("/auth/logout") || original.url.includes("/auth/refresh") || original.url.includes("/auth/login"));
+    if (error.response?.status === 401 && original && !original._retried && !isAuthEndpoint) {
       original._retried = true;
       const newToken = await tryRefreshToken();
       if (newToken) {
