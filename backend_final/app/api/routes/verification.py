@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import json
 
 from fastapi import (
@@ -170,7 +171,8 @@ async def verify_file(
 
     try:
 
-        ml_result = analyze_media_bytes(
+        ml_result = await asyncio.to_thread(
+            analyze_media_bytes,
             data=data,
             filename=file.filename,
             content_type=(
