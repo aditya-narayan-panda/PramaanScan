@@ -2,6 +2,7 @@ import { Sparkles, Info } from "lucide-react";
 import { RiskGauge } from "@/components/common/RiskGauge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import type { MediaAnalysisResult } from "@/api/types";
+import type { ReactNode } from "react";
 
 const HIDDEN_KEYS = new Set([
   "available",
@@ -112,12 +113,12 @@ export function MediaAnalysisPanel({ analysis }: { analysis: MediaAnalysisResult
             <div className="rounded-xl border border-border/70 bg-secondary/30 p-3">
               <p className="mb-2 text-[11px] font-bold uppercase tracking-[.12em] text-muted-foreground">Video evidence</p>
               <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-                {[
+                {([
                   ["Verdict", videoDetails.verdict],
                   ["AI score", formatProbability(videoDetails.fake_probability)],
                   ["Confidence", videoDetails.confidence],
                   ["Reliable windows", videoDetails.reliable_windows],
-                ].map(([label, value]) => (
+                ] as [string, ReactNode][]).map(([label, value]) => (
                   <div key={label} className="rounded-lg bg-background p-2.5">
                     <p className="text-[10px] text-muted-foreground">{label}</p>
                     <p className="mt-0.5 text-xs font-semibold">{String(value ?? "—")}</p>
@@ -131,12 +132,12 @@ export function MediaAnalysisPanel({ analysis }: { analysis: MediaAnalysisResult
             <div className="rounded-xl border border-border/70 bg-secondary/30 p-3">
               <p className="mb-2 text-[11px] font-bold uppercase tracking-[.12em] text-muted-foreground">Audio evidence</p>
               <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-                {[
+                {([
                   ["Verdict", audioDetails.final_prediction],
                   ["AI score", formatProbability(audioDetails.average_ai_score)],
                   ["AI votes", audioDetails.ai_votes != null ? `${audioDetails.ai_votes}/${audioDetails.total_models ?? "—"}` : "—"],
                   ["Segments", audioDetails.segments_analyzed],
-                ].map(([label, value]) => (
+                ] as [string, ReactNode][]).map(([label, value]) => (
                   <div key={label} className="rounded-lg bg-background p-2.5">
                     <p className="text-[10px] text-muted-foreground">{label}</p>
                     <p className="mt-0.5 text-xs font-semibold">{String(value ?? "—")}</p>
@@ -150,12 +151,12 @@ export function MediaAnalysisPanel({ analysis }: { analysis: MediaAnalysisResult
             <div className="rounded-xl border border-primary/15 bg-primary/5 p-3">
               <p className="mb-2 text-[11px] font-bold uppercase tracking-[.12em] text-primary">Multimodal fusion</p>
               <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-                {[
+                {([
                   ["Final", multimodalDetails.final_verdict],
                   ["Score", formatProbability(multimodalDetails.multimodal_score)],
                   ["Confidence", multimodalDetails.confidence],
                   ["Agreement", multimodalDetails.agreement],
-                ].map(([label, value]) => (
+                ] as [string, ReactNode][]).map(([label, value]) => (
                   <div key={label} className="rounded-lg border border-primary/10 bg-background/80 p-2.5">
                     <p className="text-[10px] text-muted-foreground">{label}</p>
                     <p className="mt-0.5 text-xs font-semibold">{String(value ?? "—")}</p>
