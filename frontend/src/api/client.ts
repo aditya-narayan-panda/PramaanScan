@@ -9,7 +9,7 @@ export const REFRESH_TOKEN_STORAGE_KEY = "pramaanscan.refresh_token";
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 60_000,
+  timeout: 180_000, // 3 minutes — audio/video ML inference can be slow on constrained hosting
 });
 
 apiClient.interceptors.request.use((config) => {
