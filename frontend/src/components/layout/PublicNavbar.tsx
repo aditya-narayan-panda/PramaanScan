@@ -5,6 +5,7 @@ import { Menu, X, ShieldCheck, ChevronRight, Landmark, Accessibility } from "luc
 import { Logo } from "./Logo";
 import { ThemeToggle } from "./ThemeToggle";
 import { Button } from "@/components/ui/button";
+import { LanguageSelector } from "./LanguageSelector";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
 
@@ -39,6 +40,7 @@ export function PublicNavbar() {
           ))}
         </nav>
         <div className="hidden items-center gap-2 lg:flex">
+          <LanguageSelector />
           <ThemeToggle />
           <DropdownMenu>
             <DropdownMenuTrigger asChild><Button variant="outline" size="sm">Portal Login</Button></DropdownMenuTrigger>
@@ -50,6 +52,7 @@ export function PublicNavbar() {
           <Button asChild size="sm"><Link to="/verify"><ShieldCheck className="h-4 w-4" /> Verify Now</Link></Button>
         </div>
         <div className="flex items-center gap-1 lg:hidden">
+          <LanguageSelector compact />
           <ThemeToggle />
           <Button variant="ghost" size="icon" onClick={() => setOpen((v) => !v)} aria-label="Toggle menu">{open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}</Button>
         </div>
@@ -58,6 +61,7 @@ export function PublicNavbar() {
         {open && <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden border-t border-border lg:hidden">
           <div className="container flex flex-col gap-1 py-4">
             {NAV_LINKS.map((link) => <NavLink key={link.to} to={link.to} onClick={() => setOpen(false)} className="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">{link.label}</NavLink>)}
+            <div className="mt-2 flex justify-end border-t border-border pt-3"><LanguageSelector /></div>
             <div className="mt-2 grid grid-cols-2 gap-2 border-t border-border pt-3"><Button variant="outline" size="sm" asChild><Link to="/institution/login" onClick={() => setOpen(false)}>Institution</Link></Button><Button variant="outline" size="sm" asChild><Link to="/admin/login" onClick={() => setOpen(false)}>Admin</Link></Button></div>
             <Button size="sm" className="mt-2" asChild><Link to="/verify" onClick={() => setOpen(false)}><ShieldCheck className="h-4 w-4" /> Verify Now</Link></Button>
           </div>

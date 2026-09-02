@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { ThemeToggle } from "./ThemeToggle";
 import { PortalSidebar, type SidebarLink } from "./PortalSidebar";
+import { LanguageSelector } from "./LanguageSelector";
 import { initials } from "@/lib/utils";
 
 export function PortalTopbar({
@@ -55,6 +56,7 @@ export function PortalTopbar({
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
+          <LanguageSelector />
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="flex items-center gap-2 rounded-full py-1 pl-1 pr-2.5 transition-colors hover:bg-secondary">

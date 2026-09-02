@@ -12,6 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Logo } from "@/components/layout/Logo";
+import { LanguageSelector } from "@/components/layout/LanguageSelector";
 import type { UserRole } from "@/api/types";
 
 const schema = z.object({
@@ -62,6 +63,7 @@ export function LoginForm({
 
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-slate-950 px-4 py-12">
+      <div className="absolute right-4 top-4 z-20 sm:right-6 sm:top-6"><LanguageSelector compact /></div>
       <div className="pointer-events-none absolute inset-0 bg-grid-slate opacity-40" />
       <div className="pointer-events-none absolute -top-32 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-primary/30 blur-[120px]" />
 

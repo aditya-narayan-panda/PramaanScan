@@ -1,5 +1,10 @@
+import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { ErrorBoundary } from "@/components/common/ErrorBoundary";
+import { ChatAssistant } from "@/components/common/ChatAssistant";
+import { ArrowUp } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { GlobalLanguageRuntime } from "@/components/common/GlobalLanguageRuntime";
 import { ProtectedRoute } from "@/components/common/ProtectedRoute";
 import { PublicLayout } from "@/components/layout/PublicLayout";
 import { InstitutionLayout } from "@/components/layout/InstitutionLayout";
@@ -45,9 +50,36 @@ import NotFoundPage from "@/pages/errors/NotFoundPage";
 import ForbiddenPage from "@/pages/errors/ForbiddenPage";
 import ServerErrorPage from "@/pages/errors/ServerErrorPage";
 
+
+function ScrollToTopButton() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setVisible(window.scrollY > 420);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  if (!visible) return null;
+  return (
+    <Button
+      type="button"
+      size="icon"
+      aria-label="Scroll to top"
+      title="Scroll to top"
+      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      className="fixed bottom-24 right-5 z-[55] h-11 w-11 rounded-full shadow-elevated sm:bottom-6 sm:right-6"
+    >
+      <ArrowUp className="h-5 w-5" />
+    </Button>
+  );
+}
+
 export default function App() {
   return (
     <ErrorBoundary>
+      <GlobalLanguageRuntime />
       <Routes>
         {/* Public site */}
         <Route element={<PublicLayout />}>
@@ -103,6 +135,8 @@ export default function App() {
         <Route path="/500" element={<ServerErrorPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      <ChatAssistant />
+      <ScrollToTopButton />
     </ErrorBoundary>
   );
 }
