@@ -1,11 +1,9 @@
 from functools import lru_cache
-from urllib.parse import quote
-from urllib.request import Request, urlopen
 from concurrent.futures import ThreadPoolExecutor
-import json
 
 from fastapi import APIRouter
 from pydantic import BaseModel, Field
+from deep_translator import GoogleTranslator
 
 router = APIRouter(prefix="/language", tags=["language"])
 
@@ -29,18 +27,12 @@ def _translate_one(text: str, target: str) -> str:
     if target not in GOOGLE_CODES:
         return text
 
-    # Public Google Translate web endpoint; no API key is required.
-    url = (
-        "https://translate.googleapis.com/translate_a/single"
-        f"?client=gtx&sl=en&tl={quote(target)}&dt=t&q={quote(text)}"
-    )
     try:
-        request = Request(url, headers={"User-Agent": "PramaanScan/1.0"})
-        with urlopen(request, timeout=8) as response:
-            payload = json.loads(response.read().decode("utf-8"))
-        return "".join(part[0] for part in payload[0] if part and part[0]) or text
-    except Exception:
+        result = GoogleTranslator(source="en", target=target).translate(text)
+        return result or text
+    except Exception as exc:
         # Translation is an enhancement; never let it break verification.
+        print(f"[language] translate failed for target={target!r}: {exc}")
         return text
 
 @router.post("/translate", response_model=TranslateResponse)
